@@ -53,16 +53,40 @@ body{
     width: 300px;
     margin-top: 80px;
     margin-left: 115px;
+    position: relative;
 }
 .sup{
     width: 300px;
     margin-top: 50px;
     margin-left: 115px;
+    position: relative;
 }
 .or{
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 142px;
 }
+.or::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 140px;
+    background-color: black;
+    bottom: 128px;
+    left: 0;
+    transform: translateY(-5px);
+}
+.or::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 140px;
+    right: 0;
+    background-color: black;
+    bottom: 128px;
+    transform: translateY(-5px);
+}
+
 .h1{
     margin-bottom: 40px;
 }
@@ -97,6 +121,9 @@ button{
     color: white;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+    background-color: rgba(58, 91, 34, 0.915);
 }
 label{
     font-size: 13px;
