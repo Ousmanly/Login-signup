@@ -66,7 +66,7 @@ body{
     background-color: black;
     bottom: 128px;
     left: 0;
-    transform: translateY(-5px);
+    transform: translateY(-9px);
 }
 .or::after{
     position: absolute;
@@ -76,7 +76,7 @@ body{
     right: 0;
     background-color: black;
     bottom: 128px;
-    transform: translateY(-5px);
+    transform: translateY(-9px);
 }
 
 .h1{
@@ -110,17 +110,17 @@ body{
 #name{
     margin-bottom: 20px;
 }
-button{
+.btn{
     width: 100%;
     border-radius: 10px;
     border: none;
-    height: 25px;
+    height: 30px;
     background-color: #3A5B22;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
-button:hover{
+.btn:hover{
     background-color: rgba(58, 91, 34, 0.915);
     transform: scale(1.05);
 }
@@ -137,14 +137,14 @@ label{
 .google{
     border: 1px solid #ccc;
     border-radius: 10px;
-    height: 20px;
+    height: 35px;
     padding: 5px 10px ;
     cursor: pointer;
 }
 .aple{
     border: 1px solid #ccc;
     border-radius: 10px;
-    height: 20px;
+    height: 35px;
     padding: 5px 10px;
     cursor: pointer;
 }
