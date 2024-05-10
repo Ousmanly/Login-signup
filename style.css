@@ -1,5 +1,7 @@
 body{
-    margin: 50px;
+    
+    margin-top: 20px;
+    margin-left: 120px;
     background-color: #ccc;
     font-family: Arial,sans-serif;
 }
@@ -8,8 +10,8 @@ body{
     display: flex;
     /* align-items: center; */
     border-radius: 15px ;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
     justify-content: space-between;
     background-color: #ffff;
     width: 1000px;
@@ -109,6 +111,12 @@ body{
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+.agr input{
+    accent-color: #3A5B22;
+}
+.remerber input{
+    accent-color: #3A5B22;
+}
 #name{
     margin-bottom: 20px;
 }
@@ -124,6 +132,7 @@ button{
 }
 button:hover{
     background-color: rgba(58, 91, 34, 0.915);
+    transform: scale(1.05);
 }
 label{
     font-size: 13px;
