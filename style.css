@@ -6,24 +6,18 @@ body{
     font-family: Arial,sans-serif;
 }
 #home{
-    /* margin-top: 30%; */
     display: flex;
-    /* align-items: center; */
     border-radius: 15px ;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     justify-content: space-between;
     background-color: #ffff;
     width: 1000px;
     height: 570px;
 }
 #home .left{
-    /* border: 1px solid black; */
     width: 290px;
     height: 338px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 }
 .left h4{
     font-size: 13px;
@@ -33,10 +27,6 @@ body{
 .left h1{
     margin-bottom: 0;
 }
-/* .head{
-    display: flex;
-    flex-direction: column;
-} */
 #home .rigth{
     width: 50%;
     height: 100%;
